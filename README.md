@@ -1,5 +1,5 @@
 # react-components-generator
-Automation for creating different types of React components
+Easily configurable and extendable automation tool for creating different types of React components.
 
 ### Usage
 ```
