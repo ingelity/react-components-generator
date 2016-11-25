@@ -1,0 +1,39 @@
+@import '../../globalStyles';
+
+.dotItem {
+  &:before {
+    content: '\00B7';
+    padding: 0 5px;
+  }
+
+  &:nth-child(1) {
+    &:before {
+      content: '';
+      padding: 0;
+    }
+  }
+}
+
+.dotItem--isClickable {
+  cursor: pointer;
+}
+
+.labelBtn {
+  cursor: pointer;
+  color: $color-primary;
+  margin: 0 10px;
+}
+
+.labeledIcon {
+  cursor: pointer;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+
+  span {
+    font-size: .9rem;
+    line-height: .9rem;
+  }
+}
